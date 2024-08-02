@@ -1,0 +1,147 @@
+@media screen and (min-width: 568px) and (max-width: 768px) {
+    .parcelnumber {
+        width: 79vw;
+    }
+    .section1-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 82vw;
+        top: 90%;
+    }
+    .sbrp-btn {
+        width: 40vw;
+        margin: 0 0 1.5vh 0;
+    }
+    .sbrp-btn-margin-media1 {
+        margin-right: 2vw;
+    }
+
+    nav {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .topbox {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topbox div {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .topbox a {
+        margin: 5px 0;
+        font-size: 4vw;
+    }
+
+    .topbox input[type="checkbox"]:checked ~ div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F8F8F8;
+        z-index: 2;
+        height: 100vh;
+    }
+    .topbox input[type="checkbox"]:checked ~ body {
+        overflow: hidden;
+    }
+
+    .topbox input[type="checkbox"] {
+        display: none;
+    }
+
+    .topbox .burger-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .topbox .burger-icon:before {
+        content: '\2630';
+    }
+
+    .topbox .burger-icon.cross:before {
+        content: '\00D7';
+    }
+
+
+    /*---------------------------------------------------------------------------------------------------------------------------*/
+    .section2 {
+        padding-top: 24vh;
+        flex-direction: column;
+        height: 75vh;
+    }
+    .section2-left-column {
+        min-width: 80vw;
+    }
+    .h2-flex {
+        display: flex;
+    }
+    .section2-left-column>.h2-flex>h2 {
+        margin-right: 20px;
+    }
+    .section2-left-column-top-p {
+        margin-bottom: 0px;
+    }
+    .section2-center-right-column {
+        display: flex;
+        margin-top: 3vh;
+        justify-content: space-around;
+    }
+    .section2-right-column>.section2-column-box {
+        width: 170px;
+    }
+    .section3 {
+        height: 48vh;
+    }
+    .section5 {
+        height: 48vh;
+    }
+    .section5-box>form>button{
+        width: 28%;
+    }
+    .section5-box>form>input {
+        width: 68%;
+    }
+    .section6 {
+        display: flex;
+        height: auto;
+    }
+    .section6-part1-mainboxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6-part1-left-box {
+        margin-right: 0;
+    }
+    .section6-part1-flexbox {
+        width: 90%;
+    }
+    .section6-part2-flexbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6-part2-flexbox>div {
+        width: 90%;
+    }
+    .section6-part2-box-margin {
+        margin: 0;
+    }
+    .column>a {
+        font-size: 14px;
+    }
+    .section8 {
+        height: auto;
+    }
+    .section8>.column {
+        height: auto;
+    }
+}

@@ -1,0 +1,100 @@
+@media screen and (max-height: 1000px) and (max-width: 1000px) {
+    .parcelnumber {
+        width: 79vw;
+    }
+    .section1 {
+        height: 60vh;
+    }
+    .section1-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 82vw;
+        top: 90%;
+    }
+    .sbrp-btn {
+        width: 40vw;
+        margin: 0 0 1.5vh 0;
+    }
+    .sbrp-btn-margin-media1 {
+        margin-right: 2vw;
+    }
+    .sbrp-main-inbox{
+        height: 70%;
+    }
+
+    /*---------------------------------------------------------------------------------------------------------------------------*/
+    .section2 {
+        padding-top: 160px;
+        flex-direction: column;
+        height: auto;
+    }
+    .section2-left-column {
+        min-width: 80vw;
+    }
+    .h2-flex {
+        display: flex;
+    }
+    .section2-left-column>.h2-flex>h2 {
+        margin-right: 20px;
+    }
+    .section2-left-column-top-p {
+        margin-bottom: 0px;
+    }
+    .section2-center-right-column {
+        display: flex;
+        margin-top: 3vh;
+        justify-content: space-around;
+    }
+    .section2-right-column>.section2-column-box {
+        width: 170px;
+    }
+    .section3 {
+        height: auto;
+    }
+    .section4 {
+        height: auto;
+    }
+    .section4-yellow-topbox {
+        min-height: 30vh;
+    }
+    .section5 {
+        height: auto;
+    }
+    .section5-box>form>button{
+        width: 28%;
+    }
+    .section5-box>form>input {
+        width: 68%;
+    }
+    .section6 {
+        height: auto;
+        display: flex;
+    }
+    .section6-part1-mainboxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6-part1-left-box {
+        margin-right: 0;
+    }
+    .section6-part1-flexbox {
+        width: 90%;
+    }
+    .section6-part2-flexbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6-part2-flexbox>div {
+        width: 90%;
+    }
+    .section6-part2-box-margin {
+        margin: 0;
+    }
+    .column>a {
+        font-size: 14px;
+    }
+    .section8 {
+        height: auto;
+    }
+}
