@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.w-1200{
+    width: 1200px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+}
+header div div img{
+    border-radius: 10px;
+    height: 50px;
+}
+header div div h2{
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+}
+.flex-header>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.w-1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+header section{
+  width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header section input{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+}
+header section p{
+    color: white;
+    font-size: 20px;
+    width: 450px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.42);
+}
+video{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    object-fit: cover;
+}
+
+
+
+
+

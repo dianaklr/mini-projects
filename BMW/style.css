@@ -1,0 +1,343 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+/* style reset */
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: #1C69D4;
+	transition: 0.3s;
+}
+body{
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	overflow-x: hidden;
+}
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*----------------------------------header----------------------------------------------------  */
+.header {
+	height: 8.3vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	margin: 0 36px 0 96px;
+}
+.header_nav {
+	display: flex;
+	gap: 24px;
+}
+.header__nav__item {
+	color: #666;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px; /* 150% */
+}
+.main {
+}
+/* ------------------------banner---------------------------------------------- */
+.banner {
+	height: 63.34vh;
+	width: 100vw;
+	background-image: url(img/Picture\ →\ cq5dam.resized.img.1680.large.time1701868691547.jpg.png);
+	background-size: cover;
+	padding-left: 5vw;
+	background-position: bottom;
+}
+.banner__title {
+	padding-top: 14.25vh;
+	color: #FFF;
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 64px; /* 133.333% */
+}
+.banner__desc {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 32px; /* 133.333% */
+	margin: 16px 0;
+}
+.banner__btn {
+	width: 285px;
+	display: flex;
+	height: 52px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	background: #1C69D4;
+	color: #FFF;
+	font-weight: 700;
+	line-height: 20px;
+	font-size: 16px;
+}
+/* ----------------------------------------------advertisment----------------------------------------------- */
+.advertisment {
+	width: 100vw;
+	padding-left: 130px;
+	padding-top: 34px;
+}
+.adv-content {
+}
+.adv-text {
+	color: #262626;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px; 
+	margin-bottom: 36px;
+	max-width: 1150px;
+}
+.bold {
+	font-weight: 700;
+}
+.adv__btns {
+	display: flex;
+	margin-bottom: 90px;
+}
+.adv__btns a{
+	width: 285px;
+	height: 52px;
+	color: #FFF;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.adv__btns a:first-child{
+	background: #1C69D4;
+	margin-right: 15px;
+}
+
+.adv__btns a:last-child{
+	background: #4D4D4D;
+}
+.adv-charity {
+	display: flex;
+	flex-direction: column;
+}
+.adv-charity__title {
+	color: #262626;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px;
+	margin-bottom: 12px; 
+}
+.adv-charity__link {
+	color: #262626;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+/* ----------------------------------catalog---------------------------------------------------- */
+.catalog {
+	width: 100vw;
+	padding-left: 130px;
+	padding-top: 100px;
+}
+.catalog__title {
+	font-size: 36.406px;
+}
+.x3x4-title {
+	font-size: 22.875px;
+}
+.x3__title{
+	margin: 20px 0 31px 0;
+}
+.x4__title{
+	margin: 30px 0 31px 0;
+}
+.x3x4 {
+	display: flex;
+}
+.x3__card {
+	text-align: center;
+}
+.card__title {
+	font-size: 16.594px;
+}
+.card__price {
+	font-size: 13.344px;
+}
+.card__special__price {
+	font-size: 13.672px;
+	font-weight: 700;
+}
+.x3x4__ps {
+	font-size: 13.016px;
+	margin-top: 30px;
+}
+/* -------------------------------------offers----------------------------------- */
+.offers {
+	width: 100vw;
+	padding: 86px 0 90px 127.5px;
+	
+}
+.offers__title {
+	color: #262626;
+	font-size: 47.813px;
+	font-weight: 300;
+	line-height: 64px;
+	margin-bottom: 33px;
+}
+.offers__wrapper {
+	display: flex;
+}
+.offers__item {
+	border: 1px solid #E6E6E6;
+	padding: 16px 16px 22.5px 16px;
+	margin-left: 15px;
+}
+.offers__item__title {
+	color: #262626;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px; /* 125% */
+	margin-top: 13px;
+}
+.offers__item__text {
+	color: #262626;
+	font-size: 15.875px;
+	font-weight: 300;
+	line-height: 24px; /* 151.181% */
+	margin-top: 16px;
+	margin-bottom: 15px;
+}
+.text2{
+	margin-bottom: 39px;
+}
+.offers__learn-more {
+	color: #262626;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px; /* 125% */
+}
+
+.message {
+	width: 100vw;
+	
+}
+.message__text {
+	padding-left: 127.5px;
+	margin-bottom: 17px;
+	color: #262626;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px; /* 142.857% */
+}
+/* --------------------------------choose----------------------------------- */
+.choose {
+	padding-left: 127.5px;
+	padding-top: 96px;
+}
+.choose__btns {
+	display: flex;
+	gap: 15px;	
+	margin-bottom: 36px;
+}
+.choose__btn {
+	width: 285px;
+	height: 60px;
+	color: #666;
+	font-weight: 700;
+	line-height: 24px;
+	border: none;
+	background: #F2F2F2;
+	text-align: center;
+}
+.choose-your-bmw {
+	display: flex;
+}
+.choose__text {
+	margin-right: 56px;
+	color: #262626;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 12px; /* 120% */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 36.28px ;
+}
+.choose__text__bold {
+	color: #262626;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px; /* 142.857% */
+	margin-bottom: 32.28px;
+}
+/* ----------------------------------subfooter--------------------------- */
+.subfooter {
+	background: #F6F6F6;
+	width: 100vw;
+	padding: 80px 0 140px 96px;
+	display: flex;
+
+}
+.subfooter__list {
+	margin-left: 100px;
+}
+.subfooter__list__title {
+	color: #4D4D4D;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 12px; /* 120% */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.subfooter__list__item {
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px; /* 142.857% */
+	margin-bottom: 13px;
+}
+/* ----------------------------------footer--------------------------------------- */
+.footer {
+	display: flex;
+	height: 7.8vh;
+	align-items: center;
+	padding: 0 96px;
+	justify-content: space-between;
+}
+.footer__ag {
+	color: #262626;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px; /* 150% */
+}
+.footer__nav{
+	display: flex;
+	gap: 32px;
+}
+.footer__nav-item {
+	color: #262626;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 16px; /* 133.333% */
+}
